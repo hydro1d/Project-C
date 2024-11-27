@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <windows.h>
 
-// ANSI Color Codes
+
 #define RESET "\033[0m"
 #define RED "\033[31m"
 #define GREEN "\033[32m"
@@ -19,18 +19,18 @@
 void print_line(char ch, int length, const char *color);
 void display_header(const char *title);
 void loading_animation();
-void main_menu();
-void admin_section();
-void user_section();
-int admin_login();
-int user_login();
-void user_registration();
-void add_menu_item();
-void view_menu();
-void delete_menu_item();
-void view_feedback();
-void give_feedback();
-void order_item();
+void main_menu();//sourabh
+void admin_section();//sourabh
+void user_section();//sourabh
+int admin_login();//arni
+int user_login();//arni
+void user_registration();//
+void add_menu_item();//alvi
+void view_menu();//arni
+void delete_menu_item();//alvi
+void view_feedback();//alvi
+void give_feedback();//alvi
+void order_item();//sourabh
 
 void print_line(char ch, int length, const char *color) {
     printf("%s", color);
