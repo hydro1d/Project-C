@@ -21,10 +21,10 @@ void print_line(char ch, int length, const char *color);//sourabh
 void display_header(const char *title);//sourabh
 void loading_animation();//sourabh
 void main_menu();//sourabh
-void admin_section();//sourabh
+void admin_section();//arni
 void user_section();//sourabh
 int admin_login();//arni
-int user_login();//arni
+int user_login();//sourabh
 void user_registration();//arni
 void add_menu_item();//alvi
 void view_menu();//arni
